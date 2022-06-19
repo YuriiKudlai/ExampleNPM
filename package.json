@@ -1,0 +1,27 @@
+{
+  "name": "yurgen",
+  "version": "1.0.0",
+  "description": "example npm",
+  "main": "hello.js",
+  "scripts": {
+   "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriiKudlai/ExampleNPM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuriiKudlai/ExampleNPM/issues"
+  },
+  "homepage": "https://github.com/YuriiKudlai/ExampleNPM#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "joi": "^17.6.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
